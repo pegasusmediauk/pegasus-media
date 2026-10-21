@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Client Reviews | Pegasus Media</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:#f5f0eb;font-family:Arial,sans-serif;line-height:1.6}
+header{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:22px 7%}
+.logo{height:85px;width:auto;max-width:100%;object-fit:contain;display:block}
+nav{display:flex;flex-wrap:wrap;gap:12px 24px}
+nav a{color:white;text-decoration:none}
+nav a:hover{text-decoration:underline}
+nav a[aria-current="page"]{border-bottom:2px solid #a64d65}
+main{min-height:60vh;padding:65px 8% 85px}
+.kicker{letter-spacing:3px;text-transform:uppercase;color:#e8ded5;font-size:12px}
+h1{font-family:Georgia,serif;font-size:clamp(42px,6vw,70px);line-height:1.1;margin:15px 0}
+p{color:#c8c2c0;max-width:650px}
+.notice{margin-top:35px;padding:30px;background:#151515;border:1px solid #302027}
+.notice p{margin:0}
+.button{display:inline-block;background:#500015;color:white;text-decoration:none;padding:15px 25px;margin-top:25px;border:1px solid #79283c}
+footer{text-align:center;padding:30px;color:#aaa;font-size:13px}
+a:focus-visible{outline:3px solid #c98b9b;outline-offset:4px}
+@media(max-width:700px){
+  header{display:block}
+  nav{margin-top:20px;gap:12px 16px}
+  nav a{font-size:14px}
+  main{padding:45px 6% 65px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" aria-label="Pegasus Media home">
+    <img class="logo" src="pegasus-logo.png" alt="Pegasus Media">
+  </a>
+  <nav aria-label="Main navigation">
+    <a href="index.html#services">Services</a>
+    <a href="portfolio.html">Our Work</a>
+    <a href="reviews.html" aria-current="page">Reviews</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="kicker">Client feedback</div>
+  <h1>Client Reviews</h1>
+  <p>Hear from the businesses we work with.</p>
+
+  <div class="notice">
+    <p>Our first client testimonials will be shared here soon.</p>
+  </div>
+
+  <a class="button" href="portfolio.html">Explore Our Work →</a>
+</main>
+
+<footer>© Pegasus Media. All rights reserved.</footer>
+
+</body>
+</html>
