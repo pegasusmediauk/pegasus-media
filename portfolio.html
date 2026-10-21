@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Work | Pegasus Media</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:#f5f0eb;font-family:Arial,sans-serif;line-height:1.6}
+header{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:22px 7%}
+.logo{height:85px;width:auto;max-width:100%;object-fit:contain;display:block}
+nav{display:flex;flex-wrap:wrap;gap:16px 24px}
+nav a{color:white;text-decoration:none}
+nav a:hover{text-decoration:underline}
+nav a[aria-current="page"]{border-bottom:2px solid #a64d65}
+main{padding:65px 8% 85px}
+.kicker{letter-spacing:3px;text-transform:uppercase;color:#e8ded5;font-size:12px}
+h1{font-family:Georgia,serif;font-size:clamp(42px,6vw,70px);line-height:1.1;margin:15px 0}
+h2{font-family:Georgia,serif;font-size:30px;margin-top:55px}
+p{color:#c8c2c0;max-width:650px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:25px}
+figure{margin:0;background:#151515;border:1px solid #302027}
+figure a{display:block}
+figure img{display:block;width:100%;height:auto}
+figcaption{padding:14px 18px;color:#c8c2c0;font-size:14px}
+.contact{padding:60px 8%;background:#17090e;text-align:center}
+.contact h2{margin-top:0}
+.contact p{margin:15px auto}
+.button{display:inline-block;background:#500015;color:white;text-decoration:none;padding:15px 25px;margin-top:15px;border:1px solid #79283c}
+footer{text-align:center;padding:30px;color:#aaa;font-size:13px}
+a:focus-visible{outline:3px solid #c98b9b;outline-offset:4px}
+@media(max-width:700px){
+  header{display:block}
+  nav{margin-top:20px;gap:12px 16px}
+  nav a{font-size:14px}
+  main{padding:45px 6% 65px}
+  .gallery{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" aria-label="Pegasus Media home">
+    <img class="logo" src="pegasus-logo.png" alt="Pegasus Media">
+  </a>
+  <nav aria-label="Main navigation">
+    <a href="index.html#services">Services</a>
+    <a href="portfolio.html" aria-current="page">Our Work</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="kicker">The Pegasus perspective</div>
+  <h1>Our Work</h1>
+  <p>Explore our aerial photography, showcasing projects and properties from a different perspective.</p>
+
+  <h2>Hantall</h2>
+  <p>Select a photograph to view the full image in a new tab.</p>
+
+  <div class="gallery">
+    <figure>
+      <a href="Hantall%201.png" target="_blank" rel="noopener">
+        <img src="Hantall%201.png"
+             alt="Hantall project aerial photograph 1"
+             decoding="async">
+      </a>
+      <figcaption>Hantall — aerial photography</figcaption>
+    </figure>
+
+    <figure>
+      <a href="Hantall%202.png" target="_blank" rel="noopener">
+        <img src="Hantall%202.png"
+             alt="Hantall project aerial photograph 2"
+             loading="lazy" decoding="async">
+      </a>
+      <figcaption>Hantall — aerial photography</figcaption>
+    </figure>
+
+    <figure>
+      <a href="Hantall%203.png" target="_blank" rel="noopener">
+        <img src="Hantall%203.png"
+             alt="Hantall project aerial photograph 3"
+             loading="lazy" decoding="async">
+      </a>
+      <figcaption>Hantall — aerial photography</figcaption>
+    </figure>
+  </div>
+</main>
+
+<section class="contact">
+  <h2>Let’s showcase your next project.</h2>
+  <p>Contact Pegasus Media to discuss aerial photography and videography for your business.</p>
+  <a class="button" href="mailto:info@pegasusmediagroup.co.uk?subject=Pegasus%20Media%20Enquiry">Enquire Now →</a>
+</section>
+
+<footer>© Pegasus Media. All rights reserved.</footer>
+
+</body>
+</html>
